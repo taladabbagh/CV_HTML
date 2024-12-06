@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tala Dabbagh</title>
+</head>
+<body>
+    <header>
+        <h1>Tala Dabbagh</h1>
+        <p>Full Stack Developer</p>
+        <p>
+            <a href="mailto:dabbagh.tala@gmail.com">Email</a> | 
+            <a href="tel:+972584311516">+972 584311516</a> | 
+            <a href="https://github.com/taladabbagh" target="_blank">GitHub</a> | 
+            <a href="https://linkedin.com/in/tala-dabbagh-ta14la09" target="_blank">LinkedIn</a>
+        </p>
+    </header>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: JavaScript, TypeScript, Python, Java, HTML</li>
+            <li>Frameworks/Libraries: React, Next.js, Spring Boot, Tailwind CSS</li>
+            <li>Tools: Git, GitHub, Figma</li>
+            <li>Databases: MySQL</li>
+            <li>Other Skills: CSS, Responsive Web Design, UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <table border="1">
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Dates</th>
+            </tr>
+            <tr>
+                <td>Computer Science/BSC</td>
+                <td>Birzeit University, Ramallah, Palestine</td>
+                <td>09/2020 - 07/2024</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+        <div>
+            <h3>Full Stack - Intern</h3>
+            <span>iConnect Technologies, Ramallah, Palestine</span>
+            <p>07/2023 - 09/2023</p>
+            <ul>
+                <li>Developed applications using C#, .NET, and Node.js.</li>
+                <li>Designed user interfaces in Figma.</li>
+                <li>Tested web applications for functionality and scalability.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Front End - Trainee</h3>
+            <span>GridsApps, Ramallah, Palestine</span>
+            <p>07/2024 - In Progress</p>
+            <ul>
+                <li>Developed e-commerce web application using React.js and TypeScript.</li>
+                <li>Implemented state management with Redux.</li>
+                <li>Enhanced performance using Immer and TailwindCSS.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="tel">Phone:</label>
+            <input type="tel" id="tel" name="tel" required><br><br>
+
+            <label for="description">Message:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+            <fieldset>
+                <legend>Select your preferred contact method:</legend>
+                <input type="radio" id="email_contact" name="contact_method" value="email" required>
+                <label for="email_contact">Email</label><br>
+
+                <input type="radio" id="phone_contact" name="contact_method" value="phone">
+                <label for="phone_contact">Phone</label>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Interested in:</legend>
+                <input type="checkbox" id="job_offer" name="interest" value="job_offer">
+                <label for="job_offer">Job Offer</label><br>
+
+                <input type="checkbox" id="mentorship" name="interest" value="mentorship">
+                <label for="mentorship">Mentorship</label>
+            </fieldset><br>
+
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason" required>
+                <option value="question">Have a Question</option>
+                <option value="collaboration">Collaboration Opportunity</option>
+                <option value="job_offer">Job Offer</option>
+            </select><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
